@@ -34,7 +34,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Me',
+        title: 'About Author',
         name: 'Sajib'
     });  
 })
@@ -42,7 +42,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-       desc: 'get your help from here',
+       desc: 'Help yourself you dumb. I not here to help you',
        name: 'Sajib'
     });  
 })
